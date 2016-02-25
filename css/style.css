@@ -1,0 +1,70 @@
+body {
+	min-width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  padding: 5px 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  /* для оформления схемы */
+  /*min-height: 20px;*/
+  padding: 5px;  
+}
+
+.logo {
+  float: left;
+  width: 120px;  
+  height: 120px;
+  background-color: red;
+}
+
+.main-navigation {
+	float: left;	
+	font-size: 0px;
+	width: 560px;
+	height: 120px;
+	background-color: green;	
+	margin-left: 180px;
+}
+
+.main-navigation li {
+	display: inline-block;
+	margin-right: 40px;
+	font-size: 16px;
+}
+
+.slider-wrapper {
+	width: 880px;
+	min-height: 320px;
+	background-color: magenta;
+}
+
+.slider-item {
+	width: 380px;
+}
+
+.features-row {
+	height: 300px; 
+}
+
+.features-item {
+	float: left;
+	width: 240px;
+	height: 300px;
+	margin-right: 80px;
+}
+
+.features-item:last-child {
+	margin-right: 0px;
+}
