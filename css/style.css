@@ -24,17 +24,15 @@ body {
 
 .logo {
   float: left;
-  width: 120px;  
+  width: 120px;
   height: 120px;
-  background-color: red;
 }
 
 .main-navigation {
-	float: left;	
+	float: left;
 	font-size: 0px;
 	width: 560px;
 	height: 120px;
-	background-color: green;	
 	margin-left: 180px;
 }
 
@@ -47,7 +45,6 @@ body {
 .slider-wrapper {
 	width: 880px;
 	min-height: 320px;
-	background-color: magenta;
 }
 
 .slider-item {
@@ -55,7 +52,7 @@ body {
 }
 
 .features-row {
-	height: 300px; 
+	height: 300px;
 }
 
 .features-item {
@@ -67,4 +64,53 @@ body {
 
 .features-item:last-child {
 	margin-right: 0px;
+}
+
+.about {
+	width: 870px;		
+}
+
+.about h1 {
+	width: 620px;
+}
+
+.about p {
+	width: 620px;
+}
+
+.about .our-work{
+	float: left;
+	width: 460px;
+}
+
+.about .our-conditions {
+	float: right;
+	width: 250px;
+}
+
+.clients li {
+	float: left;
+	width: 280px;
+}
+
+.map {
+	width: 1200px;
+	min-height: 415px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.address {
+	width: 240px;
+	margin-left: 160px;
+	margin-top: 80px;
+}
+
+.main-footer {
+	padding: 20px 0;
+}
+
+.footer-social li{
+	float: left;
+	margin-right: 20px;
 }
